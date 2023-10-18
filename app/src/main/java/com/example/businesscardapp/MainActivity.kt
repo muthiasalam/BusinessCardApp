@@ -70,9 +70,9 @@ fun BusinessCard() {
 
         )
         Spacer(modifier = Modifier.padding(bottom=20.dp))
-        Text(text = stringResource(R.string.my_name), fontSize = 30.sp, color = Color.Black)
+        Text(text = stringResource(R.string.nama), fontSize = 30.sp, color = Color.Black)
 
-        Text(text = stringResource(R.string.my_title), fontSize = 15.sp, color = Color(android.graphics.Color.parseColor("#00621B")), fontWeight = FontWeight.Bold)
+        Text(text = stringResource(R.string.NIM), fontSize = 15.sp, color = Color(android.graphics.Color.parseColor("#00621B")), fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(bottom=200.dp))
     }
     Column(
@@ -84,15 +84,15 @@ fun BusinessCard() {
 
 
             ContactRow(
-                text = stringResource(R.string.my_phone_number),
+                text = stringResource(R.string.kontak),
                 icon = Icons.Rounded.Phone
             )
             ContactRow(
-                text = stringResource(R.string.twitter_handle), icon = Icons.Rounded.Share
+                text = stringResource(R.string.share), icon = Icons.Rounded.Share
             )
 
             ContactRow(
-                text = stringResource(R.string.my_email), icon = Icons.Rounded.Email
+                text = stringResource(R.string.email), icon = Icons.Rounded.Email
             )
             Spacer(modifier = Modifier.padding(bottom=70.dp))
         }

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">BusinessCardApp</string>
-    <string name="twitter_handle">@muthiasalam</string>
-    <string name="my_phone_number">(+62)876543210</string>
-    <string name="my_name">Muthia Salam</string>
-    <string name="my_title">D121211003</string>
-    <string name="my_email">muthiacontoh@gmail.com</string>
+    <string name="share">@muthiasalam</string>
+    <string name="kontak">(+62)876543210</string>
+    <string name="nama">Muthia Salam</string>
+    <string name="NIM">D121211003</string>
+    <string name="email">muthiacontoh@gmail.com</string>
 </resources>
